@@ -22,3 +22,10 @@
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'prata-regular';
+  src: url('/fonts/Prata-Regular.ttf') format('truetype');
+  font-weight: bolder;
+  font-style: bolder;
+}

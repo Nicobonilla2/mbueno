@@ -22,7 +22,8 @@ const NavbarSmart: React.FC<Props> = ({ links }) => {
     <>
       <div className="flex lg:hidden flex-col items-center z-50 relative">
         <button onClick={toggleMenu} className="pb-2">
-          <Image
+          <Image 
+          className='blue-logo'
             alt="menu_bar_button"
             src="/images/app_bar.svg"
             width={30}

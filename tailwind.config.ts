@@ -13,6 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        'logo': ['prata-regular', 'sans-serif'],
+      },
+      colors: {
+        'blue-logo': 'rgb(21, 54, 122)', // Un ejemplo de color personalizado
+      },
     },
   },
   plugins: [],
