@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import DropdownMenuSmart from "./DropdownMenuSmart";
 
@@ -18,9 +18,25 @@ const NavbarSmart: React.FC<Props> = ({ links }) => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  useEffect(() => {
+    const closeMenu = (e: MouseEvent) => {
+      // Convertir a any para acceder a la propiedad path que es específica de eventos de navegador
+      if (!(e.target as any).closest(".menu-container")) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    if (isMenuOpen) {
+      window.addEventListener("click", closeMenu);
+    }
+
+    return () => window.removeEventListener("click", closeMenu);
+  }, [isMenuOpen]); // Dependencias para que se ejecute cada vez que isMenuOpen cambie.
+
   return (
     <>
-      <div className="flex lg:hidden flex-col items-center z-50 relative">
+      <div className="relative flex flex-col items-center z-50 menu-container lg:hidden">
         <button onClick={toggleMenu} className="pb-2">
           <Image 
           className='blue-logo'

@@ -1,0 +1,51 @@
+.background {
+    background: linear-gradient(#0b042f, #02041a);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    height: 250px;
+    width: 20%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .parallax {
+    margin-right: 15%;
+  }
+  
+  .sticky {
+    margin-left: 15%;
+    background-color: #af4dff;
+  }
+  
+  .blue {
+    background-color: #6174ff;
+    color: white;
+  }
+  
+  .purple {
+    background-color: #ff3273;
+  }
+  
+  @media (max-width: 750px) {
+    .parallax {
+      margin-right: 1.5rem;
+    }
+  
+    .sticky {
+      margin-left: 1.5rem;
+    }
+  }

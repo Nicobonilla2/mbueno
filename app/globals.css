@@ -29,3 +29,24 @@
   font-weight: bolder;
   font-style: bolder;
 }
+
+@font-face {
+  font-family: 'torcao';
+  src: url('/fonts/Torcao.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900; /* Asume que es de 100 a 900 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('/assets/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900; /* Asume que es de 100 a 900 */
+  font-style: italic;
+}

@@ -15,9 +15,11 @@ const config: Config = {
       },
       fontFamily: {
         'logo': ['prata-regular', 'sans-serif'],
+        'torcao': ['torcao', 'sans-serif'],
+        'opensans': ['OpenSans', 'sans-serif']
       },
       colors: {
-        'blue-logo': 'rgb(21, 54, 122)', // Un ejemplo de color personalizado
+        'blue-logo': 'rgb(25, 39, 83)', // Un ejemplo de color personalizado
       },
     },
   },

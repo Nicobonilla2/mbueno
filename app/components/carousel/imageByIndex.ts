@@ -1,8 +1,8 @@
-const image1 = '/images/Calefaccion-ventilacion-y-aire-condicionado.jpg';
-const image2 = '/images/Gestion-de-proyectos.jpg';
-const image3 = '/images/Inspeccion-tecnica-de-obra.jpeg';
-const image4 = '/images/Detalle.jpeg';
-const image5 = '/images/ventilacion-aire-condicionado.webp';
+const image1 = '/images/Calefaccion-ventilacion-y-aire-condicionado.avif';
+const image2 = '/images/Gestion-de-proyectos.avif';
+const image3 = '/images/Inspeccion-tecnica-de-obra.avif';
+const image4 = '/images/Detalle.avif';
+const image5 = '/images/ventilacion-aire-condicionado.avif';
 
 export const images: string[] = [image1, image2, image3, image4, image5]
 
