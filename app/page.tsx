@@ -1,11 +1,8 @@
 'use client';
-import Image from "next/image";
 import Navbar from "./components/navbar/Navbar";
-import Link from "next/link";
 import CarouselHome from "./components/carousel/CarouselHome";
 import Services from "./components/services/Services";
 import ParallaxSection from "./components/parallax/ParallaxSection";
-import IconSection from "./components/parallax/IconMercados";
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Mercados from "./components/mercados/Mercados";
 
