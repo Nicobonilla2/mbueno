@@ -22,7 +22,7 @@ const ParallaxSection: React.FC<ParallaxProps> = ({ src }) => {
         className='absolute top-0 left-0 w-full h-full bg-white bg-opacity-70'>
         </div>
 
-      <Parallax pages={1}>
+      <Parallax pages={2}>
         <ParallaxLayer
           offset={0}
           speed={1}
