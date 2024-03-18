@@ -32,7 +32,7 @@ const Mercados: React.FC = () => {
   return (
     <>
       <Section>
-        <section className="h-full flex">
+        <section className="h-full flex z-100">
           <div className="container grid px-5 font-opensans text-gray-600 mx-auto">
             <div className="text-center mb-12">
               <h1 className="text-2xl pt-10 md:text-4xl xl:pt-28 text-center">
@@ -49,7 +49,9 @@ const Mercados: React.FC = () => {
                   urlImage={mercado.urlImage}
                 />
               ))}
+              
             </div>
+            
           </div>
         </section>
       </Section>
