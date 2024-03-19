@@ -11,7 +11,10 @@ export default function Home() {
         <Navbar />
         <CarouselHome />
         <Services />
-       
+        <div className="relative h-[25vw] w-screen overflow-hidden">
+          <div className="absolute top-0 left-0 right-0 bottom-0 bg-white z-10" />
+          <div className="absolute top-0 left-0 right-0 bottom-0 bg-blue-500 z-0 transform rotate-3 translate-y-1/4" />
+        </div>
         <MercadosSideEffect />
         <Mercados />
 {/*
