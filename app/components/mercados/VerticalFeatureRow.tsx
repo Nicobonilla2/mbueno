@@ -29,7 +29,7 @@ export default function VerticalFeatureRow({
       opacity: inView ? 1 : 0,
       transform: inView
         ? `translateX(0)`
-        : `translateX(${reversed ? "-100%" : "100%"})`,
+        : `translateX(-100%)`,
     },
     config: {
       mass: 1,

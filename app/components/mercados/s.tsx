@@ -32,7 +32,7 @@ export default function VerticalFeatureRow({ title, description, image, urlMerca
 
   return (
     <Link href={`/informacion-isapres-chile/${urlMercado}`}>
-      <div ref={ref} className="flex flex-col md:flex-row cursor-pointer">
+      <div ref={ref} className="flex flex-col  md:flex-row cursor-pointer">
         <animated.div style={animation} className="flex items-center text-center w-full md:w-1/2 px-6">
           <div className="w-full p-6">
             <h3 className="text-xl md:text-2xl font-semibold text-gray-600">{title}</h3>
